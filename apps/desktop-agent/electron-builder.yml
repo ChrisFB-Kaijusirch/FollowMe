@@ -1,0 +1,11 @@
+appId: com.example.followme.agent
+productName: "FollowMe Desktop Agent"
+files:
+  - "**/*"
+asar: true
+directories:
+  output: dist
+win:
+  target: nsis
+mac:
+  target: dmg
