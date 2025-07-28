@@ -1,0 +1,11 @@
+{
+  "name": "followme",
+  "private": true,
+  "workspaces": [
+    "apps/web-frontend",
+    "apps/browser-extension",
+    "apps/desktop-agent"
+  ],
+  "version": "1.0.0",
+  "license": "MIT"
+}
