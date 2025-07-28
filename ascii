@@ -1,0 +1,17 @@
++-----------------------------------------------------+
+|                   Web Frontend (React)              |
+| - Timeline view                                     |
+| - Step editor & annotation                          |
+| - PDF export (pdf-lib.js or Puppeteer)              |
++-----------------------------------------------------+
+            |                          |
++-----------+-----------+   +----------+-----------+
+| Browser Extension     |   | Desktop Agent (Electron)|
+| - Content script      |   | - iohook / robotjs      |
+|   captures clicks     |   | - Global hotkey         |
+| - Sends events        |   | - WebSocket server      |
++----------------------+   +------------------------+
+            |                          |
++-----------+--------------------------+
+|          Local Storage (IndexedDB, filesystem)       |
++-----------------------------------------------------+
